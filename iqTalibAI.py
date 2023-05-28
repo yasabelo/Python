@@ -12,8 +12,8 @@ import time as t
 #--END OF IMPORTS
 
 #USER ACCOUNT CREDENTIALS AND LOG IN 
-my_user = "teyasabelo@gmail.com"    #YOUR IQOPTION USERNAME
-my_pass = "nhrFtXqQw@QCHi7"         #YOUR IQOTION PASSWORD
+my_user = ""    #YOUR IQOPTION USERNAME
+my_pass = ""         #YOUR IQOTION PASSWORD
 #CONNECT ==>:
 Iq=IQ_Option(my_user,my_pass)
 iqch1,iqch2 = Iq.connect()
